@@ -1,0 +1,52 @@
+@font-face {
+        font-family: proxima; /* Имя шрифта */
+        src: url(../fonts/proximanovaregular.ttf); /* Путь к файлу со шрифтом */
+       } 
+
+ body{
+    font-family: proxima;
+} 
+
+header button{
+    text-decoration: none;
+    font-size:1.5em;
+    text-align: center;
+	border:none;
+	background-color:#ffffff;;
+    padding:0.5em;
+   
+    padding-top: 0.5em;
+    color:#000000;
+    ;
+	
+}
+ header button:hover{
+   color: #ffffff;
+    background: #a01b1c;
+
+    -moz-transition: all 0.2s 0.02s ease;
+	-o-transition: all 0.2s 0.02s ease;
+ 	-webkit-transition: all 0.2s 0.02s ease;
+}
+
+.btnmenu{
+    padding-left: 0em !important;
+    padding-right: 0em !important;
+    border-radius: 0.1em;
+}
+.bron{
+    color: #ffffff !important;
+    background: #a01b1c !important;
+}
+.bron:hover{
+    color: #a01b1c !important;
+    background: #ffffff !important;
+}
+/* .galleryid{
+    border: 0.1em solid #000000;
+    height: 30em;
+    width: 40em;
+} */
+.txth3{
+    display: inline;
+}

@@ -1,0 +1,42 @@
+.carousel-animate .carousel-indicators > li {
+    margin: 0 2px;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(58,36,83);
+    opacity: 0.7;
+   }
+   .carousel-animate .carousel-indicators > li.active {
+    width: 10px;
+    height: 10px;
+    opacity: 1;
+   }
+
+   .carousel-fade .carousel-inner .item {
+    transition-property: opacity;
+   }
+   .carousel-fade .carousel-inner .item,
+   .carousel-fade .carousel-inner .active.left,
+   .carousel-fade .carousel-inner .active.right {
+    opacity: 0;
+   }
+   .carousel-fade .carousel-inner .active,
+   .carousel-fade .carousel-inner .next.left,
+   .carousel-fade .carousel-inner .prev.right {
+    opacity: 1;
+   }
+   .carousel-fade .carousel-inner .next,
+   .carousel-fade .carousel-inner .prev,
+   .carousel-fade .carousel-inner .active.left,
+   .carousel-fade .carousel-inner .active.right {
+    left: 0;
+    transform: translate3d(0, 0, 0);
+   }
+   .carousel-bg .carousel-inner .item {
+    background-color: darkslategrey;
+    background-size: cover;
+    background-position: center;
+    min-height: 700px;
+   }
+   .carousel11{
+       margin-top: 2em;
+       width: 100%;
+   }
