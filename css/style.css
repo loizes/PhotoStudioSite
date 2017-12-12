@@ -7,7 +7,7 @@
     font-family: proxima;
 } 
 
-header button{
+.c1 button{
     text-decoration: none;
     font-size:1.5em;
     text-align: center;
@@ -20,7 +20,7 @@ header button{
     ;
 	
 }
- header button:hover{
+ .c1 button:hover{
    color: #ffffff;
     background: #a01b1c;
 
@@ -50,3 +50,31 @@ header button{
 .txth3{
     display: inline;
 }
+.c2{
+    background-color: #000000;
+}
+header{
+    background-color: #000000;
+}
+header span{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.soc1{
+background: url(../img/vk1.png);
+display: block;
+width: 3.48em;
+height: 3.4em;
+}
+.soc1:hover{
+    background: url(../img/vk2.png);
+}
+.soc2{
+    background: url(../img/inst.png);
+    display: block;
+    width: 3.4em;
+    height: 3.4em;
+    }
+    .soc2:hover{
+        background: url(../img/inst2.png);
+    }
