@@ -4,55 +4,69 @@
        } 
 
  body{
+    background-color: #eeeeee;
     font-family: proxima;
 } 
-
-.c1 button{
-    text-decoration: none;
-    font-size:1.5em;
-    text-align: center;
-	border:none;
-	background-color:#ffffff;;
-    padding:0.5em;
+.navbar{
    
-    padding-top: 0.5em;
-    color:#000000;
-    ;
+    background-color:#eeeeee;
+    border-radius:0em !important; 
+    border:0em;
+}
+.nav li{
+    color: #000000 !important;
+    text-decoration: none;
+    font-size: 1.5em;
+    text-align: center;
+    border: none;
+    background-color: #eeeeee; 
+  
 	
 }
- .c1 button:hover{
-   color: #ffffff;
-    background: #a01b1c;
+.liactive{
+    background-color: #a01b1c !important;  
+    color: #eeeeee !important;
+    padding-left: 3em !important;
+    padding-right: 3em !important;
+}
+ .liactive:hover{
+    background-color:   #eeeeee !important;
+    color:#000000 !important;
+
+}
+.linonactive{
+    color:#000000 !important;
+    padding-left: 3em !important;
+    padding-right: 3em !important;
+}
+.linonactive:hover{
+    color:#eeeeee !important;
+ 
+}
+.limenu{
+    padding-left: 0em;
+    padding-right: 0em;
+}
+
+.l12{
+    background-color:   #eeeeee !important;
+}
+
+ .nav li:hover{
+   color: #ffffff !important;
+    background: #a01b1c !important;
 
     -moz-transition: all 0.2s 0.02s ease;
 	-o-transition: all 0.2s 0.02s ease;
  	-webkit-transition: all 0.2s 0.02s ease;
 }
 
-.btnmenu{
-    padding-left: 0em !important;
-    padding-right: 0em !important;
-    border-radius: 0.1em;
-}
-.bron{
-    color: #ffffff !important;
-    background: #a01b1c !important;
-}
-.bron:hover{
-    color: #a01b1c !important;
-    background: #ffffff !important;
-}
-/* .galleryid{
-    border: 0.1em solid #000000;
-    height: 30em;
-    width: 40em;
-} */
+
+
 .txth3{
     display: inline;
 }
-.c2{
-    background-color: #000000;
-}
+
 header{
     background-color: #000000;
 }
@@ -65,16 +79,75 @@ background: url(../img/vk1.png);
 display: block;
 width: 3.48em;
 height: 3.4em;
+position: center;
+z-index: 0;
 }
 .soc1:hover{
     background: url(../img/vk2.png);
+    z-index: 1;
 }
 .soc2{
     background: url(../img/inst.png);
     display: block;
     width: 3.4em;
     height: 3.4em;
+    z-index: 0;
     }
     .soc2:hover{
         background: url(../img/inst2.png);
+        z-index: 1;
     }
+.t1{
+    text-align: center;
+    padding: 0em;
+}
+.t2{
+    text-align: center;
+    margin-top: 3em;
+    font-weight: 600; 
+}
+.zagzag{
+    padding: 0em !important;
+}
+.sp1{
+    float: right;
+    text-align: center;
+    font-size: 1.7em;
+    padding-top: 0.9em;
+    color: #eeeeee;
+
+}
+tel:hover{
+    color:#a01b1c;
+}
+.btnblock{
+    font-size: 1.3em;
+background-color:#eeeeee;
+float: right;
+}
+.btnblock:hover{
+    background-color:#a01b1c;
+    border-color: #a01b1c;
+    color: #eeeeee;
+}
+.btnb{
+    padding-left: 0.5em;
+    padding-top: 1.3em;
+}
+.navbar-toggle{
+    color: #fff !important;
+    background-color: #000000 !important;
+    border-color: #eeeeee !important;
+
+}
+.navbar-header{
+    color: #eeeeee;
+    background-color: #000000;
+}
+
+.icon-bar{
+    color: #eeeeee;
+}
+.p1{
+    background: url(../img/p1.png);
+}
