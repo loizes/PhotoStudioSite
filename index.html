@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/carousel.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -38,7 +39,7 @@
     </div>
     <div class="col-sm-5 col-md-6 col-lg-6">
       <div class="col-sm-5 col-md-6 col-lg-6 btnb">
-        <button type="button" class="btn btnblock btn-default">Забронировать</button>
+        <button type="button" data-toggle="modal" data-target="#bronfotoset" class="btn btnblock btn-default">Забронировать</button>
       </div>
       <div class=" col-sm-5 col-md-6 col-lg-6 sp1">
         <span class="tel">
@@ -67,6 +68,7 @@
                 <li class="limenu "><a class="linonactive" href="#contact">Галерея</a></li>
                 <li class="limenu "><a class="linonactive" href="#about">Услуги</a></li>
                 <li class="limenu "><a class="linonactive" href="#contact">О нас</a></li>
+                <li class="limenu visible-xs-block " data-toggle="modal" data-target="#bronfotoset"><a class="linonactive" href="#contact">Бронирование</a></li>
               </ul>
             </div>
             </div><!--/.nav-collapse -->
@@ -145,13 +147,151 @@
 
     </div>
   </footer>
+      <!-- Modal -->
+      <!-- <div class="modal fade" id="bronfotoset">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title">Бронирование фотосессии</h4>
+            </div>
+            <div class="modal-body">
+              <div class="col-lg-6">
+                <label>Выберите фотосессию</label>
+                <select class="selection">
+                    <option value="0" >Семейная</option>
+                    <option value="1" >Public Survey</option>
+                    <option value="2" >Restrict Survey</option>
+                </select>
+          
+            </div>
+            <div class="col-lg-6">
+              <h3>
+                В неё входит:
+                -любой интерьер 
+                -рекомендации по подбору образа и подготовка к съёмке 
+                -аренда фотостудии (+гримерка) 1,5 часа 
+                -цветокоррекция 10 удачных фотографий на выбор 
+              </h3>
+            </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+              <button type="button" class="btn btn-primary">Сохранить изменения</button>
+            </div>
+          </div>
+        </div>
+      </div>
+       -->
 
+       <div class="modal fade bs-example-modal-lg" id="bronfotoset" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title">Бронирование фотосессии</h4>
+            </div>
+            <div class="modal-body">
+              <div>
+                <label>Выберите фотосессию</label>
+                <select class="selection">
+                    <option value="0" >Выберите...</option>
+                    <option value="1" >Семейная</option>
+                    <option value="2" >Индивидуальная</option>
+                    <option value="3" >Детская</option>
+                    <option value="4" >Предметная</option>
+                </select>
+          
+            </div>
+          
+            <div class="descr1">
+              <p>
+                В съемку входит:<br>
+                -любой интерьер <br>
+                -рекомендации по подбору образа и подготовка к съёмке<br> 
+                -аренда фотостудии (+гримерка) 1,5 часа<br>
+                -цветокоррекция 10 удачных фотографий на выбор<br>
+              </p>
+            </div>
+            <div class="descr2">
+              <p>
+               
+                -2 фотозоны ( 1,5часа (съёмка 1час) 4000 рублей<br>
+                -4 фотозоны (1,5 часа (съёмка 1час) 5100 рублей<br>
+              </p>
+            </div>
+            <div class="descr3">
+              <p>
+                В детскую съемку входит:<br>
+                -1 человек (1,5 часа) 5000 рублей<br>
+                -От 2 и больше 6000 рублей<br> 
+              </p>
+            </div>
+            <div class="descr4">
+      
+               
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Пакет "Минимум" </label>
+                  </div>
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck2">
+                    <label class="form-check-label" for="exampleCheck2">Заказ фоторамки и печать снимков </label>
+                  </div>
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck3">
+                    <label class="form-check-label" for="exampleCheck3">Заказ шариков для съёмки </label>
+                  </div>
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck4">
+                    <label class="form-check-label" for="exampleCheck4">Дополнительные услуги визажиста</label>
+                  </div>
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck5">
+                    <label class="form-check-label" for="exampleCheck5">Дополнительные аренда гримерки</label>
+                  </div>
+                </div>
+          
+            <div class="pdescr">
+              <p>
+              Услуги по желанию
+              </p>
+            </div>
+            <div class="checkdescr1">
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Дополнительная авторская обработка фотографий (1 фото-50р) </label>
+              </div>
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck2">
+                <label class="form-check-label" for="exampleCheck2">Заказ фоторамки и печать снимков </label>
+              </div>
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck3">
+                <label class="form-check-label" for="exampleCheck3">Заказ шариков для съёмки </label>
+              </div>
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck4">
+                <label class="form-check-label" for="exampleCheck4">Дополнительные услуги визажиста</label>
+              </div>
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck5">
+                <label class="form-check-label" for="exampleCheck5">Дополнительные аренда гримерки</label>
+              </div>
+            </div>
+            </div>
+          </div>
+         
+        </div>
+      </div>
+
+
+    <!-- Modal -->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.nicescroll.min.js"></script>
     <script src="js/wow.min.js"></script>
+    <script src="js/modal.js"></script>
     <script>
       new WOW().init();
     </script>
