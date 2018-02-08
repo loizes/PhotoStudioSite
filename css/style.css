@@ -1,9 +1,9 @@
 @font-face {
-        font-family: proxima; /* Имя шрифта */
-        src: url(../fonts/proximanovaregular.ttf); /* Путь к файлу со шрифтом */
-       } 
-
- body{
+    font-family: proxima; /* font name */
+    src: url(../fonts/proximanovaregular.ttf); /* source */
+} 
+/* style */
+body{
     background-color: #eeeeee;
     font-family: proxima;
 } 
@@ -29,19 +29,10 @@
     padding-left: 3em !important;
     padding-right: 3em !important;
 }
- .liactive:hover{
-    background-color:   #eeeeee !important;
-    color:#000000 !important;
-
-}
 .linonactive{
     color:#000000 !important;
     padding-left: 3em !important;
     padding-right: 3em !important;
-}
-.linonactive:hover{
-    color:#eeeeee !important;
- 
 }
 .limenu{
     padding-left: 0em;
@@ -53,16 +44,12 @@
 }
 
  .nav li:hover{
-   color: #ffffff !important;
+    color: #ffffff !important;
     background: #a01b1c !important;
-
     -moz-transition: all 0.2s 0.02s ease;
 	-o-transition: all 0.2s 0.02s ease;
  	-webkit-transition: all 0.2s 0.02s ease;
 }
-
-
-
 .txth3{
     display: inline;
 }
@@ -75,16 +62,12 @@ header span{
     margin-bottom: 1em;
 }
 .soc1{
-background: url(../img/vk1.png);
-display: block;
-width: 3.48em;
-height: 3.4em;
-position: center;
-z-index: 0;
-}
-.soc1:hover{
-    background: url(../img/vk2.png);
-    z-index: 1;
+    background: url(../img/vk1.png);
+    display: block;
+    width: 3.48em;
+    height: 3.4em;
+    position: center;
+    z-index: 0;
 }
 .soc2{
     background: url(../img/inst.png);
@@ -92,11 +75,7 @@ z-index: 0;
     width: 3.4em;
     height: 3.4em;
     z-index: 0;
-    }
-    .soc2:hover{
-        background: url(../img/inst2.png);
-        z-index: 1;
-    }
+}
 .t1{
     text-align: center;
     padding: 0em;
@@ -117,19 +96,12 @@ z-index: 0;
     color: #eeeeee;
 
 }
-tel:hover{
-    color:#a01b1c;
-}
 .btnblock{
     font-size: 1.3em;
 background-color:#eeeeee;
 float: right;
 }
-.btnblock:hover{
-    background-color:#a01b1c;
-    border-color: #a01b1c;
-    color: #eeeeee;
-}
+
 .btnb{
     padding-left: 0.5em;
     padding-top: 1.3em;
@@ -151,3 +123,112 @@ float: right;
 .p1{
     background: url(../img/p1.png);
 }
+.pdescr{
+    margin-top:1em; 
+    margin-left: 0.7em;
+    font-weight: bold;
+}
+.radiocheckfoto1{
+    font-size: 1.2em !important;
+    background-color: #eeeeee;
+    border-color:#eeeeee;
+    color: #000000;
+    width: 12.6em;
+    height: 2.2em;
+
+    
+}
+.radiocheckfoto2{
+    font-size: 1.2em !important;
+    background-color: #eeeeee;
+    border-color:#eeeeee;
+    color: #000000;
+    width: 12.6em;
+    height: 2.2em;
+
+    
+}
+.radiocheckfoto{
+    text-align: center !important;
+}
+.btnfs{
+    margin-left: 0.7em !important;
+}
+.active{
+    
+        background-color: #771718 !important;
+        border-color:#771718 !important;
+        color:#eeeeee !important ;
+        
+}
+
+.descrpacket1,.descrpacket2,.descrpacket3,.descrpacket4,.checkdescr1{
+    margin-left: 1em !important;
+    margin-top: 1em !important;
+    margin-bottom:1em !important;
+}
+.fotoset11 p{
+    margin-left: 0.7em;
+    margin-top: 1em;
+    margin-bottom:1em ;
+}
+.checksum{
+    float: left;
+
+}
+.checksum1,.checksum2,.checksum3,.checksum4,.checksum5,.checksum6{
+    color: #a01b1c;
+    float: left;
+    margin-left: 1em;
+}
+.btnnext{
+    width: 10em;
+    height: 2.5em;
+}
+.gg23 input{
+    position: center;
+}
+/* hover effects */
+tel:hover{
+    color:#a01b1c;
+}
+.btnblock:hover{
+    background-color:#a01b1c;
+    border-color: #a01b1c;
+    color: #eeeeee;
+}
+.soc2:hover{
+    background: url(../img/inst2.png);
+    z-index: 1;
+}
+.soc1:hover{
+    background: url(../img/vk2.png);
+    z-index: 1;
+}
+.linonactive:hover{
+    color:#eeeeee !important;
+ 
+}
+.liactive:hover{
+    background-color:   #eeeeee !important;
+    color:#000000 !important;
+
+}
+.radiocheckfoto1:hover{
+    background-color: #a01b1c !important;
+    border-color:#a01b1c !important;
+    color:#eeeeee !important ;
+    
+}
+.radiocheckfoto2:hover{
+    background-color: #a01b1c !important;
+    border-color:#a01b1c !important;
+    color:#eeeeee !important ;
+    
+}
+.btnnext:hover{
+    background-color:#a01b1c;
+    border-color: #a01b1c;
+    color: #eeeeee;
+}
+

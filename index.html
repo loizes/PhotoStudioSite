@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/carousel.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-
+   
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -21,35 +21,31 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
-  
-    
-
-    <!-- Modal -->
-<header>
-<div class="container visible-sm-block visible-md-block visible-lg-block c2">
-  <div class="row">
-    <div class=" col-sm-5 col-md-6 col-lg-6">
-     <div class=" col-sm-5 col-md-2 col-lg-2"> 
-       <span class="soc1"><a href=""></a></span>
-    </div>
-     <div class=" col-sm-5 col-md-2 col-lg-2">
-        <span class="soc2"><a href=""></a></span>
-     </div>
-    </div>
-    <div class="col-sm-5 col-md-6 col-lg-6">
-      <div class="col-sm-5 col-md-6 col-lg-6 btnb">
-        <button type="button" data-toggle="modal" data-target="#bronfotoset" class="btn btnblock btn-default">Забронировать</button>
-      </div>
-      <div class=" col-sm-5 col-md-6 col-lg-6 sp1">
-        <span class="tel">
-         <tel> +79998510581</tel>
-        </span>
+<body>
+  <header>
+    <div class="container visible-sm-block visible-md-block visible-lg-block c2">
+      <div class="row">
+        <div class=" col-sm-5 col-md-6 col-lg-6">
+        <div class=" col-sm-5 col-md-2 col-lg-2"> 
+          <span class="soc1"><a href=""></a></span>
+        </div>
+        <div class=" col-sm-5 col-md-2 col-lg-2">
+            <span class="soc2"><a href=""></a></span>
+        </div>
+        </div>
+        <div class="col-sm-5 col-md-6 col-lg-6">
+          <div class="col-sm-5 col-md-6 col-lg-6 btnb">
+            <button type="button" data-toggle="modal" data-target="#bronfotoset" class="btn btnblock btn-default">Забронировать</button>
+          </div>
+          <div class=" col-sm-5 col-md-6 col-lg-6 sp1">
+            <span class="tel">
+            <tel> +79998510581</tel>
+            </span>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
-</header>
+  </header>
 
     <div class="navbar navbar-default" role="navigation">
         <div class="container">
@@ -148,140 +144,169 @@
     </div>
   </footer>
       <!-- Modal -->
-      <!-- <div class="modal fade" id="bronfotoset">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h4 class="modal-title">Бронирование фотосессии</h4>
-            </div>
-            <div class="modal-body">
-              <div class="col-lg-6">
-                <label>Выберите фотосессию</label>
-                <select class="selection">
-                    <option value="0" >Семейная</option>
-                    <option value="1" >Public Survey</option>
-                    <option value="2" >Restrict Survey</option>
-                </select>
-          
-            </div>
-            <div class="col-lg-6">
-              <h3>
-                В неё входит:
-                -любой интерьер 
-                -рекомендации по подбору образа и подготовка к съёмке 
-                -аренда фотостудии (+гримерка) 1,5 часа 
-                -цветокоррекция 10 удачных фотографий на выбор 
-              </h3>
-            </div>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
-              <button type="button" class="btn btn-primary">Сохранить изменения</button>
-            </div>
-          </div>
-        </div>
-      </div>
-       -->
-
-       <div class="modal fade bs-example-modal-lg" id="bronfotoset" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+       <div class="modal fade gg23 bs-example-modal-lg" id="bronfotoset" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg">
           <div class="modal-content">
             <div class="modal-header">
               <h4 class="modal-title">Бронирование фотосессии</h4>
             </div>
             <div class="modal-body">
-              <div>
-                <label>Выберите фотосессию</label>
-                <select class="selection">
-                    <option value="0" >Выберите...</option>
-                    <option value="1" >Семейная</option>
-                    <option value="2" >Индивидуальная</option>
-                    <option value="3" >Детская</option>
-                    <option value="4" >Предметная</option>
-                </select>
-          
-            </div>
+              <div class="fotoset11">
+              <div class="btn-group btnfs" data-toggle="buttons">
+                <label class="btn radiocheckfoto1">
+                  <input type="radio" class="radiocheckfoto" name="fotosetcheck" value="1" id="option11"> Семейная
+                </label>
+                <label class="btn radiocheckfoto1">
+                  <input type="radio" class="radiocheckfoto" name="fotosetcheck" value="2" id="option21"> Индивидуальная 
+                </label>
+                <label class="btn radiocheckfoto1">
+                  <input type="radio" class="radiocheckfoto" name="fotosetcheck" value="3" id="option31"> Детская 
+                </label>
+                <label class="btn radiocheckfoto1">
+                  <input type="radio" class="radiocheckfoto" name="fotosetcheck" value="4" id="option41"> Предметная
+                </label>
+              </div>
           
             <div class="descr1">
-              <p>
+              <p class="pdescr">
                 В съемку входит:<br>
+              </p>
+              <p>
                 -любой интерьер <br>
                 -рекомендации по подбору образа и подготовка к съёмке<br> 
                 -аренда фотостудии (+гримерка) 1,5 часа<br>
                 -цветокоррекция 10 удачных фотографий на выбор<br>
               </p>
             </div>
-            <div class="descr2">
-              <p>
-               
-                -2 фотозоны ( 1,5часа (съёмка 1час) 4000 рублей<br>
-                -4 фотозоны (1,5 часа (съёмка 1час) 5100 рублей<br>
-              </p>
+            <div class="btn-group descr2" data-toggle="buttons">
+              <label class="btn radiocheckfoto2 ">
+                <input type="radio" class="radiocheckfoto13" name="packetsfotosetcheck" id="option51"> 2 фотозоны
+              </label>
+              <label class="btn radiocheckfoto2 ">
+                <input type="radio" class="radiocheckfoto13" name="packetsfotosetcheck" id="option52"> 4 фотозоны 
+              </label>
+              
+            
+          </div>
+            
+              <div class="btn-group descr3" data-toggle="buttons">
+                <label class="btn radiocheckfoto2 ">
+                  <input type="radio" class="radiocheckfoto14" name="packetsfotosetcheck" id="option61"> 1 человек
+                </label>
+                <label class="btn radiocheckfoto2 ">
+                  <input type="radio" class="radiocheckfoto14" name="packetsfotosetcheck" id="option62"> от 2 и больше 
+                </label>
+                
+              
             </div>
-            <div class="descr3">
-              <p>
-                В детскую съемку входит:<br>
-                -1 человек (1,5 часа) 5000 рублей<br>
-                -От 2 и больше 6000 рублей<br> 
-              </p>
-            </div>
+            
+            <div class="fotoset12">
             <div class="descr4">
-      
+              <div class="pdescr">
+                <p>
+                  Выберите пакет:
+                </p>
+              </div>
                
-                  <div class="form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Пакет "Минимум" </label>
-                  </div>
-                  <div class="form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck2">
-                    <label class="form-check-label" for="exampleCheck2">Заказ фоторамки и печать снимков </label>
-                  </div>
-                  <div class="form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck3">
-                    <label class="form-check-label" for="exampleCheck3">Заказ шариков для съёмки </label>
-                  </div>
-                  <div class="form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck4">
-                    <label class="form-check-label" for="exampleCheck4">Дополнительные услуги визажиста</label>
-                  </div>
-                  <div class="form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck5">
-                    <label class="form-check-label" for="exampleCheck5">Дополнительные аренда гримерки</label>
-                  </div>
-                </div>
-          
-            <div class="pdescr">
+              <div class="btn-group" data-toggle="buttons">
+                <label class="btn radiocheckfoto2 ">
+                  <input type="radio" class="radiocheckfoto" name="packetsfotosetcheck" id="option12"> Пакет "Минимум"
+                </label>
+                <label class="btn radiocheckfoto2 ">
+                  <input type="radio" class="radiocheckfoto" name="packetsfotosetcheck" id="option22"> Пакет "Средний" 
+                </label>
+                <label class="btn radiocheckfoto2 ">
+                  <input type="radio" class="radiocheckfoto" name="packetsfotosetcheck" id="option32"> Пакет "Максимум" 
+                </label>
+                <label class="btn radiocheckfoto2 ">
+                  <input type="radio" class="radiocheckfoto" name="packetsfotosetcheck" id="option42"> Пакет "Максимум +" 
+                </label>
+              </div>
+            </div>
+            <div class="descrpacket1">
+              От 10 до 100 предметов<br>
+              1 предмет = 55 рублей<br>
+            </div>
+            <div class="descrpacket2">
+              От 100 до 300 предметов<br>
+              1 предмет = 65 рублей<br>
+              Каждый 30 предмет скидка 50%<br>
+            </div>
+            <div class="descrpacket3">
+              От 300 до 500 предметов<br>
+              1 предмет = 75 рублей<br>
+              Каждый 50 предмет скидка 50%<br>
+            </div>
+            <div class="descrpacket4">
+              От 500 до 1500 предметов<br>
+              1 предмет = 80 рублей<br>
+              Каждый 100 предмет бесплатно<br>
+            </div>
+            <div class=" pdescr">
               <p>
               Услуги по желанию
               </p>
             </div>
-            <div class="checkdescr1">
-              <div class="form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">Дополнительная авторская обработка фотографий (1 фото-50р) </label>
+             <div class="checkdescr1">
+             
+                <p>Дополнительная авторская обработка фотографий (Стоймость 1 фото - 50 рублей)</p> 
+                <p>Заказ фоторамки и печать снимков </p>
+                <p>Заказ шариков для съёмки </p>
+               <p> Дополнительные услуги визажиста</p>
+               <p> Дополнительные аренда гримерки</p>
+                
               </div>
-              <div class="form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck2">
-                <label class="form-check-label" for="exampleCheck2">Заказ фоторамки и печать снимков </label>
               </div>
-              <div class="form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck3">
-                <label class="form-check-label" for="exampleCheck3">Заказ шариков для съёмки </label>
+            </div> 
+            <div class="fotosum">
+              <div class="checksum">
+                <h3>
+                  Стоймость фотосессии:
+                </h3>
+                </div>
+                <h3 class="checksum1">
+                  9991 рублей*
+                </h3>
+                <h3 class="checksum2">
+                  9992 рублей*
+                </h3>
+                <h3 class="checksum3">
+                  9993 рублей*
+                </h3>
+                <h3 class="checksum4">
+                  9994 рублей*
+                </h3>
+                <h3 class="checksum5">
+                    9995 рублей*
+                  </h3>
+                  <h3 class="checksum6">
+                      9996 рублей*
+                    </h3>
               </div>
-              <div class="form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck4">
-                <label class="form-check-label" for="exampleCheck4">Дополнительные услуги визажиста</label>
-              </div>
-              <div class="form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck5">
-                <label class="form-check-label" for="exampleCheck5">Дополнительные аренда гримерки</label>
-              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" data-toggle="modal" data-target="#inputfotoset" class="btn btnnext">Далее</button>
+              <p>*Стоймость указывается без учета доп.услуг и предметных пакетов</p>
             </div>
             </div>
           </div>
          
         </div>
+      
+<div class="modal fade bs-example-modal-lg" id="inputfotoset" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+     <div class="modal-header">
+        <h4 class="modal-title">Введите свои данные</h4>
+     </div>
+      <div class="modal-content">
+        <div class="inputfields"><input required placeholder="Введите имя" type="text"></div>
+        <div class="inputfields"><input required placeholder="Введите фамилию" type="text"></div>
+        <div class="inputfields"><input required placeholder="Введите номер телефона" type="text"></div>
+        <div class="inputfields"><input required placeholder="Комментарий" type="text"></div>
+        <div class="inputfields"><input type="text"></div>
       </div>
+    </div>
+  </div>
 
 
     <!-- Modal -->
@@ -292,6 +317,7 @@
     <script src="js/jquery.nicescroll.min.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/modal.js"></script>
+    
     <script>
       new WOW().init();
     </script>
