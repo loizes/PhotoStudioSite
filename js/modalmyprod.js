@@ -16,7 +16,8 @@ $(".checksum3").hide(0);
 $(".checksum4").hide(0);
 $(".checksum5").hide(0);
 $(".checksum6").hide(0);
-$(".modal-footer").hide(0);
+$(".bntnext").hide(0);
+$(".checksumop").hide(0);
 if ($("#option11").change(function(){  //1
     $(".descr1").show(150);
     $(".descr2").hide(150);
@@ -35,7 +36,8 @@ if ($("#option11").change(function(){  //1
     $(".checksum4").hide(0);
     $(".checksum5").hide(0);
     $(".checksum6").hide(0);
-    $(".modal-footer").show(150);
+    $(".bntnext").show(150);
+    $(".checksumop").show(150);
 }));
 if ($("#option21").change(function(){  //2
     $(".descr1").show(150);
@@ -55,7 +57,8 @@ if ($("#option21").change(function(){  //2
     $(".checksum4").hide(0);
     $(".checksum5").hide(0);
     $(".checksum6").hide(0);
-    $(".modal-footer").hide(0);
+    $(".bntnext").hide(0);
+    $(".checksumop").hide(0);
 }));
 if ($("#option51").change(function(){  //2
 
@@ -66,7 +69,8 @@ if ($("#option51").change(function(){  //2
     $(".checksum4").hide(0);
     $(".checksum5").hide(0);
     $(".checksum6").hide(0);
-    $(".modal-footer").show(150);
+    $(".bntnext").show(150);
+    $(".checksumop").show(150);
     
 }));
 if ($("#option52").change(function(){  //2
@@ -78,7 +82,8 @@ if ($("#option52").change(function(){  //2
         $(".checksum4").hide(0);
         $(".checksum5").hide(0);
         $(".checksum6").hide(0);
-        $(".modal-footer").show(150);
+        $(".bntnext").show(150);
+        $(".checksumop").show(150);
     }));
 if ($("#option61").change(function(){  //2
         
@@ -89,7 +94,8 @@ if ($("#option61").change(function(){  //2
             $(".checksum4").show(150);
             $(".checksum5").hide(0);
             $(".checksum6").hide(0);
-            $(".modal-footer").show(150);
+            $(".bntnext").show(150);
+            $(".checksumop").show(150);
         }));
 if ($("#option62").change(function(){  //2
             
@@ -100,7 +106,8 @@ if ($("#option62").change(function(){  //2
                 $(".checksum4").hide(0);
                 $(".checksum5").show(150);
                 $(".checksum6").hide(0);
-                $(".modal-footer").show(150);
+                $(".bntnext").show(150);
+                $(".checksumop").show(150);
             }));
 if ($("#option31").change(function(){  //3
     $(".descr1").show(150);
@@ -120,7 +127,8 @@ if ($("#option31").change(function(){  //3
     $(".checksum4").hide(0);
     $(".checksum5").hide(0);
     $(".checksum6").hide(0);
-    $(".modal-footer").hide(0);
+    $(".bntnext").hide(0);
+    $(".checksumop").hide(0);
 
 }));
 
@@ -138,7 +146,8 @@ if ($("#option41").change(function(){  //4
     $(".checksum4").hide(0);
     $(".checksum5").hide(0);
     $(".checksum6").show(150);
-    $(".modal-footer").show(150);
+    $(".bntnext").show(150);
+    $(".checksumop").show(150);
 }));
 if ($("#option12").change(function(){  //1
     $(".descrpacket1").show(150);
@@ -164,5 +173,7 @@ if ($("#option42").change(function(){  //4
     $(".descrpacket3").hide(150);
     $(".descrpacket4").show(150);
 }));
-
+$(".btnnext").onclick(function(){
+    $('#bronfotoset').modal('');
+})
 })

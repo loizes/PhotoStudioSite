@@ -12,6 +12,10 @@ body{
     background-color:#eeeeee;
     border-radius:0em !important; 
     border:0em;
+
+}
+.navcontain{
+    height: 50px;
 }
 .nav li{
     color: #000000 !important;
@@ -77,13 +81,14 @@ header span{
     z-index: 0;
 }
 .t1{
+    margin-top: 0em;
     text-align: center;
     padding: 0em;
 }
 .t2{
+    margin-top: 0em;
     text-align: center;
-    margin-top: 3em;
-    font-weight: 600; 
+    font-weight: 100; 
 }
 .zagzag{
     padding: 0em !important;
@@ -116,12 +121,19 @@ float: right;
     color: #eeeeee;
     background-color: #000000;
 }
+.navbar{
+    margin-bottom:0em !important; 
+}
 
 .icon-bar{
     color: #eeeeee;
 }
 .p1{
-    background: url(../img/p1.png);
+    background-image: url(../img/p1.png);
+}
+.pdescr1{
+    margin-left: 0em !important;
+
 }
 .pdescr{
     margin-top:1em; 
@@ -131,7 +143,7 @@ float: right;
 .radiocheckfoto1{
     font-size: 1.2em !important;
     background-color: #eeeeee;
-    border-color:#eeeeee;
+    border-color:#dddddd;
     color: #000000;
     width: 12.6em;
     height: 2.2em;
@@ -184,9 +196,29 @@ float: right;
 .btnnext{
     width: 10em;
     height: 2.5em;
+    background-color: #a01b1c;
+    color:#fff;
 }
-.gg23 input{
-    position: center;
+
+.checksumop{
+    float: left !important;
+}
+.dpnn{
+    display: none;
+}
+.psp1{
+    text-align: center;
+  
+    font-size: 1.2em;
+}
+.navbrand2{
+    background-color: #eeeeee;
+    color: #000 !important;
+    padding: 0em;
+    padding-top:0.3em; 
+}
+#span1{
+    color: #a01b1c;
 }
 /* hover effects */
 tel:hover{
@@ -227,8 +259,11 @@ tel:hover{
     
 }
 .btnnext:hover{
-    background-color:#a01b1c;
-    border-color: #a01b1c;
-    color: #eeeeee;
+    background-color:#eeeeee;
+    border-color: #000;
+    color: #000;
 }
-
+.navbrand2:hover{
+    background-color: #eeeeee !important;
+    
+}

@@ -34,9 +34,10 @@
     background-color: darkslategrey;
     background-size: cover;
     background-position: center;
-    min-height: 600px;
+    min-height: 700px;
    }
    .carousel11{
-       margin-top: 2em;
+       padding-bottom: 0.5em;
+       margin-top: 0em;
        width: 100%;
    }
