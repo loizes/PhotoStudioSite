@@ -12,10 +12,13 @@ body{
     background-color:#eeeeee;
     border-radius:0em !important; 
     border:0em;
-
+    z-index: 99;
 }
 .navcontain{
     height: 50px;
+}
+.navbar-collapse{
+    z-index: 99;
 }
 .nav li{
     color: #000000 !important;
@@ -73,10 +76,12 @@ header span{
     position: center;
     z-index: 0;
 }
+
+
 .soc2{
     background: url(../img/inst.png);
     display: block;
-    width: 3.4em;
+    width: 3.48em;
     height: 3.4em;
     z-index: 0;
 }
@@ -120,6 +125,8 @@ float: right;
 .navbar-header{
     color: #eeeeee;
     background-color: #000000;
+    z-index: 999;
+    
 }
 .navbar{
     margin-bottom:0em !important; 
@@ -209,6 +216,7 @@ float: right;
 .psp1{
     text-align: center;
   
+    float: left;
     font-size: 1.2em;
 }
 .navbrand2{
@@ -216,10 +224,34 @@ float: right;
     color: #000 !important;
     padding: 0em;
     padding-top:0.3em; 
+    text-shadow: 2px 2px 0px rgba(0,0,0,0.2);
 }
 #span1{
     color: #a01b1c;
 }
+#contacts{
+    background-color: #000000;
+}
+.c3{
+    margin-top: 4em;
+    margin-bottom: 2em;
+}
+.c4{
+    margin-bottom: 4em;
+}
+.pic22{
+    margin-top: 4em;
+    margin-bottom: 2em;
+}
+.soc{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.map{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
 /* hover effects */
 tel:hover{
     color:#a01b1c;
@@ -239,7 +271,8 @@ tel:hover{
 }
 .linonactive:hover{
     color:#eeeeee !important;
- 
+    background-color:#a01b1c !important;
+    border-color: #a01b1c !important;
 }
 .liactive:hover{
     background-color:   #eeeeee !important;
