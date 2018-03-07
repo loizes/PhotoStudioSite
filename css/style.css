@@ -4,22 +4,22 @@
 } 
 /* style */
 body{
-    background-color: #eeeeee;
+  background-color: #ededee;
     font-family: proxima;
 } 
-.navbar{
-   
+ .navbar{
+   padding: 0em !important;
+   margin: 0em !important;
     background-color:#eeeeee;
     border-radius:0em !important; 
     border:0em;
-    z-index: 99;
 }
-.navcontain{
-    height: 50px;
-}
+
 .navbar-collapse{
-    z-index: 99;
+    margin: 0em !important;
+    padding: 0em !important;
 }
+
 .nav li{
     color: #000000 !important;
     text-decoration: none;
@@ -30,21 +30,24 @@ body{
   
 	
 }
+
 .liactive{
     background-color: #a01b1c !important;  
     color: #eeeeee !important;
     padding-left: 3em !important;
     padding-right: 3em !important;
 }
+
 .linonactive{
     color:#000000 !important;
     padding-left: 3em !important;
     padding-right: 3em !important;
 }
+
 .limenu{
     padding-left: 0em;
     padding-right: 0em;
-}
+} 
 
 .l12{
     background-color:   #eeeeee !important;
@@ -250,6 +253,35 @@ float: right;
 .map{
     margin-top: 2em;
     margin-bottom: 2em;
+}
+.dtm1{
+    margin-left: 15em !important;
+}
+.c5{
+    text-align: center;
+}
+.c51{
+    background-color: #d1d1d1;
+    border-right: 1px solid #353535;
+    border: 1px solid #c4c4c4;
+}
+.tmbpic{
+    background-color: #eeeeee !important;
+    border-color: #eeeeee !important;
+    border-radius:0em !important; 
+    width: 10em;
+    height: 13em;
+
+}
+.tmbbpic{
+}
+.t4{
+    padding-bottom: 1em;
+    padding-top: 1em;
+    font-size:2.5em; 
+}
+.c6{
+   padding-bottom: 2em; 
 }
 
 /* hover effects */
