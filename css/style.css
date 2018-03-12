@@ -208,6 +208,7 @@ float: right;
     height: 2.5em;
     background-color: #a01b1c;
     color:#fff;
+    margin-bottom: 2em;
 }
 
 .checksumop{
@@ -264,6 +265,8 @@ float: right;
     background-color: #d1d1d1;
     border-right: 1px solid #353535;
     border: 1px solid #c4c4c4;
+    padding-bottom: 2.5em;
+
 }
 .tmbpic{
     background-color: #eeeeee !important;
@@ -273,15 +276,14 @@ float: right;
     height: 13em;
 
 }
-.tmbbpic{
-}
+
 .t4{
     padding-bottom: 1em;
     padding-top: 1em;
     font-size:2.5em; 
 }
 .c6{
-   padding-bottom: 2em; 
+   padding-bottom: 3em; 
 }
 
 /* hover effects */

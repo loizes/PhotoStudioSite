@@ -1,0 +1,17 @@
+#types{
+    margin-bottom: 2em;
+}
+.tmbpic11{
+    background-color: #d1d1d1 !important;
+    border-color: #d1d1d1 !important;
+    border-radius:0em !important; 
+    width: 10em;
+    height: 13em;
+
+}
+.btnnextm{
+    width: 10em;
+    height: 2.5em;
+    background-color: #a01b1c;
+    color:#fff;
+}

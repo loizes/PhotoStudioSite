@@ -4,133 +4,540 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Document</title>
+        <title>Фотостудия RWB </title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/price.css">
     <link rel="stylesheet" href="css/carousel.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 </head>
 <body>
-        <header>
-                <div class="container visible-sm-block visible-md-block visible-lg-block c2">
-                  <div class="row">
-                    <div class=" col-sm-5 col-md-6 col-lg-6">
-                    <div class=" col-sm-5 col-md-2 col-lg-2"> 
-                      <span class="soc1"><a href=""></a></span>
-                    </div>
-                    <div class=" col-sm-5 col-md-2 col-lg-2">
-                        <span class="soc2"><a href=""></a></span>
-                    </div>
-                    </div>
-                    <div class="col-sm-5 col-md-6 col-lg-6">
-                      <div class="col-sm-5 col-md-6 col-lg-6 btnb">
-                        <button type="button" data-toggle="modal" data-target="#bronfotoset" class="btn btnblock btn-default">Забронировать</button>
-                      </div>
-                      <div class=" col-sm-5 col-md-6 col-lg-6 sp1">
-                        <span class="tel">
-                        <tel> +79998510581</tel>
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </header>
-            
-                <div class="navbar navbar-default" role="navigation">
-                    <div class="container">
-                        <div class="navbar-header">
-                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                                <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                            <a class="navbar-brand visible-xs-block" href="#">RW&B Studio</a>
-                            <a class="navbar-brand visible-md-block visible-lg-block navbrand2" ><span id="span1">Red</span> <br>White &amp; Black Studio</a>
-                        </div>
-                        <div class="navbar-collapse collapse text-center">
-                          <div style="display: inline-block;"><ul class="nav navbar-nav">
-                            <li class="limenu"><a class="linonactive" href="index.html">Главная</a></li>
-                            <li class="limenu "><a class="linonactive" href="gallery.html">Галерея</a></li>
-                            <li class="limenu l12 active"><a class="liactive" href="#about">Услуги</a></li>
-                            <li class="limenu "><a class="linonactive" href="#contact">О нас</a></li>
-                            <li class="limenu visible-xs-block " data-toggle="modal" data-target="#bronfotoset"><a class="linonactive" href="#contact">Бронирование</a></li>
-                          </ul>
-                        </div>
-                        </div><!--/.nav-collapse -->
-                    </div>
-                </div>
-             
-            <div class="container">
-                <div class="row">
-                        <div class="btn-group btnfs" data-toggle="buttons">
-                                <label class="btn radiocheckfoto1">
-                                  <input type="radio" class="radiocheckfoto" name="fotosetcheck" value="1" id="option11"> Семейная
-                                </label>
-                                <label class="btn radiocheckfoto1">
-                                  <input type="radio" class="radiocheckfoto" name="fotosetcheck" value="2" id="option21"> Индивидуальная 
-                                </label>
-                                <label class="btn radiocheckfoto1">
-                                  <input type="radio" class="radiocheckfoto" name="fotosetcheck" value="3" id="option31"> Детская 
-                                </label>
-                                <label class="btn radiocheckfoto1">
-                                  <input type="radio" class="radiocheckfoto" name="fotosetcheck" value="4" id="option41"> Предметная
-                                </label>
-                              </div>
-                </div>
+  <header>
+    <div class="container  visible-md-block visible-lg-block c2">
+      <div class="row">
+        <div class=" col-sm-5 col-md-6 col-lg-6">
+        <div class=" col-sm-5 col-md-2 col-lg-2 soc"> 
+          <a href="https://vk.com/rwbstudio" class="soc1" target="_blank"><img class="soc1"></a>
+        </div>
+        <div class=" col-sm-5 col-md-2 col-lg-2 soc">
+            <a href="https://www.instagram.com/rwbstudio_" class="soc2" target="_blank"><img class="soc2"></a>
+        </div>
+        </div>
+        <div class="col-sm-5 col-md-6 col-lg-6">
+          <div class="col-sm-5 col-md-6 col-lg-6 btnb">
+            <a href="broninp.html" class="btn btnblock btn-default">Забронировать</a>
+          </div>
+          <div class=" col-sm-5 col-md-6 col-lg-6 sp1">
+            <span class="tel">
+            <tel> +79998510581</tel>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+<section id="navbarsec">
+    <div class="navbar navbar-default navcontain" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand visible-xs-block visible-sm-block" href="#">RW&amp;B Studio</a>
+                <a class="navbar-brand visible-md-block visible-lg-block navbrand2" ><span id="span1">Red</span> <br>White &amp; Black Studio</a>
             </div>
+            <div class="navbar-collapse collapse text-center">
+              <div style="display: inline-block;"><ul class="nav navbar-nav">
+                <li class="limenu"><a class="linonactive" href="index.html">Главная</a></li>
+                <li class="limenu "><a class="linonactive" href="gallery.html">Галерея</a></li>
+                <li class="limenu l12 active"><a class="liactive" href="price.html">Услуги</a></li>
+                <li class="limenu "><a class="linonactive" href="about.html">О нас</a></li>
+                <li class="limenu visible-xs-block " ><a class="linonactive" href="broninp.html">Бронирование</a></li>
+              </ul>
+            </div>
+            </div><!--/.nav-collapse -->
+        </div>
+    </div>
+  </section>
+
+  <section id="types">
+    <div class="container">
+      <div class="row">
+        <div class="section_header text-center">
+          <h2>Наши услуги</h2>
+        </div>
+      </div>
+    <div	class="row text-center">
+      <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+        <div class="card">
+          <img src="img/thumbnails/1.jpg" alt="индивиудальная" class="img-responsive center-block">
+          <h4>Индивидуальная</h4>
+          <br>
+          <button class="btn btnnext" data-toggle="modal" href="#more_1_modal">подробнее</button>
+          
+        </div>
+      </div>
+      <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+        <div class="card">
+          <img src="img/thumbnails/2.jpg" alt="семейная" class="img-responsive center-block">
+          <h4>Семейная</h4>
+          <br>
+          <button class="btn btnnext" data-toggle="modal" href="#more_2_modal">подробнее</button>
+          
+        </div>
+      </div>
+      <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+        <div class="card">
+          <img src="img/thumbnails/3.jpg" alt="Детская" class="img-responsive center-block">
+          <h4>Детская</h4>
+          <br>
+          <button class="btn btnnext" data-toggle="modal" href="#more_3_modal">подробнее</button>
+          
+        </div>
+      </div>
+      <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+        <div class="card">
+          <img src="img/thumbnails/5.jpg" alt="Предметная" class="img-responsive center-block">
+          <h4>Предметная</h4>
+          <br>
+          
+          <button class="btn btnnext" data-toggle="modal" href="#more_4_modal">подробнее</button>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <Section class="c51">
+    <div class="container c6">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+              <h3 class="t2 t4">
+                Подписывайтесь на наш инстаграм<br>
+        
+                @rwbstudio
+              </h3>
+          </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 tmbinst"> 
+              <a href="#" class="thumbnail tmbpic11">
+                 <img src="img/inst/20.jpg" class="tmbpic11" alt="...">
+              </a>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 tmbinst"> 
+              <a href="#" class="thumbnail tmbpic11">
+                 <img src="img/inst/2.jpg" class="tmbpic11" alt="...">
+              </a>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 tmbinst"> 
+              <a href="#" class="thumbnail tmbpic11">
+                 <img src="img/inst/3.jpg" class="tmbpic11" alt="...">
+              </a>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 tmbinst"> 
+              <a href="#" class="thumbnail tmbpic11">
+                 <img src="img/inst/4.jpg" class="tmbpic11" alt="...">
+              </a>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 tmbinst"> 
+              <a href="#" class="thumbnail tmbpic11">
+                 <img src="img/inst/5.jpg" class="tmbpic11" alt="...">
+              </a>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 tmbinst"> 
+              <a href="#" class="thumbnail tmbpic11">
+                 <img src="img/inst/6.jpg" class="tmbpic11" alt="...">
+              </a>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 tmbinst"> 
+              <a href="#" class="thumbnail tmbpic11">
+                 <img src="img/inst/7.jpg" class="tmbpic11" alt="...">
+              </a>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 tmbinst"> 
+              <a href="#" class="thumbnail tmbpic11">
+                 <img src="img/inst/8.jpg" class="tmbpic11" alt="...">
+              </a>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 tmbinst"> 
+              <a href="#" class="thumbnail tmbpic11">
+                 <img src="img/inst/9.jpg" class="tmbpic11" alt="...">
+              </a>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 tmbinst"> 
+              <a href="#" class="thumbnail tmbpic11">
+                 <img src="img/inst/18.jpg" class="tmbpic11" alt="...">
+              </a>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 tmbinst"> 
+              <a href="#" class="thumbnail tmbpic11">
+                 <img src="img/inst/22.jpg" class="tmbpic11" alt="...">
+              </a>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 tmbinst"> 
+              <a href="#" class="thumbnail tmbpic11">
+                 <img src="img/inst/19.jpg" class="tmbpic11" alt="...">
+              </a>
+            </div>
+          </div>
+    </div>
+    </Section>
 
 
-
-
-
-
-
-            <footer id="contacts">
-              <div class="container">
-                <div class="row">
-                  <div class="col-md-5 col-md-offset-1">
-                    <div class="map">
-                      <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A0a1dc2012cfec67b2b55dd4b0eb2dd21c400af74de0f0da0eccc8f8505e7f215&amp;width=450&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+  <footer id="contacts">
+    <div class="container">
+      <div class="row">
+        <div class="visible-lg-block col-md-5  col-lg-3 ">
+          <div class="map">
+            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A95cb774acaa07b87daca3c2b987b6bc18190b9eaf42b5931bdc3170cc60e4e5a&amp;width=450&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+            
+          </div>
+        </div>
+        <div class=" visible-md-block  col-md-2">
+            <div class="map">
+              <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A95cb774acaa07b87daca3c2b987b6bc18190b9eaf42b5931bdc3170cc60e4e5a&amp;width=350&amp;height=300&amp;lang=ru_RU&amp;scroll=true"></script>
+              
+            </div>
+          </div>
+        <div class="col-xs-3 col-sm-3 col-md-6 col-lg-6 col-lg-offset-2 cont">
+          <h2>Контакты</h2>
+        <div class="row">
+            <address>
+            <p id="address">
+              Адрес:
+            </p>
+            <p id="world">г.Балашиха проспект Ленина, 75</p>
+          </address>
+        </div>
+      <div class="row">
+          <div class="phone_footer">
+            <p id="phone_footer">
+              Телефон:	
+            </p>
+            <p id="number">+79251167646</p>
+      </div>
+          </div>
+          <div class="row">	
+            <div class="col-xs-8 col-sm-5 col-md-2 col-lg-2"> 
+              <span class="soc1"><a href="https://vk.com/rwbstudio"></a></span>
+            </div>
+            <div class="col-xs-8 col-sm-5 col-md-2 col-lg-2">
+                <span class="soc2"><a href="https://www.instagram.com/rwbstudio_"></a></span>
+            
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="modal fade" id="more_1_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog big_modal">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h4>Индивидуальная</h4>
+            </div>
+            <div class="modal-body">
+  
+             <div class="row">
+                 <div class="col-xs-12 col-sm-5 col-md-5 col-lg-6">
+                     <div class="fotorama"
+                        data-width="100%">
+                         <img src="img/types/1_modal/1.jpg" alt="">
+                         <img src="img/types/1_modal/2.jpg" alt="">
+                         <img src="img/types/1_modal/3.jpg" alt="">
+                         <img src="img/types/1_modal/4.jpg" alt="">
+                     </div>
+                 </div>
+                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5">
+                    
+                    <p>-любой интерьер<br>
+                      -рекомендации по подбору образа и подготовка к съёмке<br>
+                      -аренда фотостудии (+гримерка) 1,5 часа<br>
+                      -цветокоррекция 10 удачных фотографий на выбор<br>
+                      2 фотозоны ( 1,5часа (съёмка 1час) 3000 рублей <br>
+                      4 фотозоны (1,5 часа (съёмка 1час) 4100 рублей <br>
                       
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <h2>Контакты</h2>
-                  <div class="row">
-                      <address>
-                      <p id="address">
-                        Адрес:
+                      <br><br>        </p>
+                      <p>
+                        По желанию:<br>
+                        +дополнительная авторская обработка фотографий (1 фото-50р)<br>
+                        
+                        +заказ фоторамка и печать снимков<br>
+                        
+                        +заказ шариков для съёмки<br>
+                        
+                        +дополнительные услуги визажиста<br>
+                        +дополнительная аренда гримерки<br>
+                        <br>
+                       
                       </p>
-                      <p id="world">г.Балашиха ЖК "Акварели"</p>
-                    </address>
-                  </div>
-                <div class="row">
-                    <div class="phone_footer">
-                      <p id="phone_footer">
-                        Телефон:	
-                      </p>
-                      <p id="number">+79251167646</p>
-                </div>
+                     
+                 </div>
+             </div>
+             <div class="row">
+                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xs-offset-2 col-sm-offset-6 col-md-offset-6 col-lg-offset-6">
+                   <button class="btn btnnextm">Забронировать</button>
+                 </div>
+               </form>
+             </div>
+            </div>
+          </div>
+        </div>
+          </div>
+        <div class="modal fade" id="more_2_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog big_modal">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4>Семейная</h4>
+              </div>
+              <div class="modal-body">
+    
+               <div class="row">
+                   <div class="col-xs-12 col-sm-5 col-md-5 col-lg-6">
+                       <div class="fotorama"
+                          data-width="100%">
+                           <img src="img/types/2_modal/1.jpg" alt="">
+                           <img src="img/types/2_modal/2.jpg" alt="">
+                       </div>
+                   </div>
+                   <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5">
+                      
+                      <p>-любой интерьер<br>
+                        -рекомендации по подбору образа и подготовка к съёмке<br>
+                        -аренда фотостудии (+гримерка) 1,5 часа<br>
+                        -цветокоррекция 10 удачных фотографий на выбор<br><br>        </p>
+                        <p>
+                          По желанию:<br>
+                          +дополнительная авторская обработка фотографий (1 фото-50р)<br>
+                          
+                          +заказ фоторамка и печать снимков<br>
+                          
+                          +заказ шариков для съёмки<br>
+                          
+                          +дополнительные услуги визажиста<br>
+                          +дополнительная аренда гримерки<br>
+                          <br>
+                         
+                        </p>
+                        <h2>
+                          4300 рублей
+                        </h2>
+                   </div>
+               </div>
+               <div class="row">
+                   <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xs-offset-2 col-sm-offset-6 col-md-offset-6 col-lg-offset-6">
+                     <button class="btn btnnextm">Забронировать</button>
+                   </div>
+                 </form>
+               </div>
+              </div>
+            </div>
+          </div>
+            </div>
+            <div class="modal fade" id="more_3_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog big_modal">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                      <h4>Детская</h4>
                     </div>
-                    <div class="row">	
-                    <a class="social_icon" href="https://vk.com/rwbstudio"><img src="img/social-1.png" alt="Вконтакте"></a>
-                    <a class="social_icon" href="https://www.instagram.com/rwbstudio_"><img src="img/social-2.png" alt="Инстаграм"></a>
+                    <div class="modal-body">
+          
+                     <div class="row">
+                         <div class="col-xs-12 col-sm-5 col-md-5 col-lg-6">
+                             <div class="fotorama"
+                                data-width="100%">
+                                 <img src="img/types/3_modal/1.jpg" alt="">
+                                 <img src="img/types/3_modal/2.jpg" alt="">
+                             </div>
+                         </div>
+                         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5">
+                            
+                            <p>-любой интерьер<br>
+                              -рекомендации по подбору образа и подготовка к съёмке<br>
+                              -аренда фотостудии (+гримерка) 1,5 часа<br>
+                              -цветокоррекция 10 удачных фотографий на выбор
+                              1 человек (1,5 часа) 3000 рублей
+                              От 2 и больше 4000 рублей
+                              
+                              
+                              <br><br>        </p>
+                              <p>
+                                По желанию:<br>
+                                +дополнительная авторская обработка фотографий (1 фото-50р)<br>
+                                
+                                +заказ фоторамка и печать снимков<br>
+                                
+                                +заказ шариков для съёмки<br>
+                                
+                                +дополнительные услуги визажиста<br>
+                                +дополнительная аренда гримерки<br>
+                                <br>
+                               
+                              </p>
+                            
+                         </div>
+                     </div>
+                     <div class="row">
+                         <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xs-offset-2 col-sm-offset-6 col-md-offset-6 col-lg-offset-6">
+                           <button class="btn btnnextm">Забронировать</button>
+                         </div>
+                       </form>
+                     </div>
                     </div>
                   </div>
                 </div>
-              </footer>
-
-
-
+                  </div>
+                  <div class="modal fade" id="more_3_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                      <div class="modal-dialog big_modal">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h4>Детская</h4>
+                          </div>
+                          <div class="modal-body">
+                
+                           <div class="row">
+                               <div class="col-xs-12 col-sm-5 col-md-5 col-lg-6">
+                                   <div class="fotorama"
+                                      data-width="100%">
+                                       <img src="img/types/3_modal/1.jpg" alt="">
+                                       <img src="img/types/3_modal/2.jpg" alt="">
+                                   </div>
+                               </div>
+                               <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5">
+                                  
+                                  <p>-любой интерьер<br>
+                                    -рекомендации по подбору образа и подготовка к съёмке<br>
+                                    -аренда фотостудии (+гримерка) 1,5 часа<br>
+                                    -цветокоррекция 10 удачных фотографий на выбор
+                                    1 человек (1,5 часа) 3000 рублей
+                                    От 2 и больше 4000 рублей
+                                    
+                                    
+                                    <br><br>        </p>
+                                    <p>
+                                      По желанию:<br>
+                                      +дополнительная авторская обработка фотографий (1 фото-50р)<br>
+                                      
+                                      +заказ фоторамка и печать снимков<br>
+                                      
+                                      +заказ шариков для съёмки<br>
+                                      
+                                      +дополнительные услуги визажиста<br>
+                                      +дополнительная аренда гримерки<br>
+                                      <br>
+                                     
+                                    </p>
+                                  
+                               </div>
+                           </div>
+                           <div class="row">
+                               <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xs-offset-2 col-sm-offset-6 col-md-offset-6 col-lg-offset-6">
+                                 <button class="btn btnnextm">Забронировать</button>
+                               </div>
+                             </form>
+                           </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal fade" id="more_4_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="modal-dialog big_modal">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                              <h4>Детская</h4>
+                            </div>
+                            <div class="modal-body">
+                  
+                             <div class="row">
+                                 <div class="col-xs-12 col-sm-5 col-md-5 col-lg-6">
+                                     <div class="fotorama"
+                                        data-width="100%">
+                                         <img src="img/types/4_modal/1.jpg" alt="">
+                                         <img src="img/types/4_modal/2.jpg" alt="">
+                                     </div>
+                                 </div>
+                                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5">
+                                    
+                                    <p>-любой интерьер<br>
+                                      -рекомендации по подбору образа и подготовка к съёмке<br>
+                                      -аренда фотостудии (+гримерка) 1,5 часа<br>
+                                      -цветокоррекция 10 удачных фотографий на выбор<br>
+                                      1 человек (1,5 часа) 3000 рублей<br>
+                                      От 2 и больше 4000 рублей<br><br>
+                                      -Пакет "Минимум"<br>
+                                      От 10 до 100 предметов<br>
+                                      1 предмет = 55 рублей<br><br>
+                                      
+                                      -Пакет "Средний"<br>
+                                      От 100 до 3000 предметов<br>
+                                      1 предмет = 65 рублей<br>
+                                      Каждый 30 предмет скидка 50%<br><br>
+                                      
+                                      -Пакет "Максимум"<br>
+                                      От 300 до 500 предметов<br>
+                                      1 предмет = 75 рублей<br>
+                                      На каждый 50 предмет скидка 50%<br><br>
+                                      
+                                      Пакет "Максимум +"<br>
+                                      От 500 до 1500 предметов<br>
+                                      1 предмет = 80 рублей<br>
+                                      Каждый 100 предмет бесплатно<br>
+                                      
+                                      <br><br>        </p>
+                                      <p>
+                                        По желанию:<br>
+                                        +дополнительная авторская обработка фотографий (1 фото-50р)<br>
+                                        
+                                        +заказ фоторамка и печать снимков<br>
+                                        
+                                        +заказ шариков для съёмки<br>
+                                        
+                                        +дополнительные услуги визажиста<br>
+                                        +дополнительная аренда гримерки<br>
+                                        <br>
+                                       
+                                      </p>
+                                    
+                                 </div>
+                             </div>
+                             <div class="row">
+                                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xs-offset-2 col-sm-offset-6 col-md-offset-6 col-lg-offset-6">
+                                   <button class="btn btnnextm">Забронировать</button>
+                                 </div>
+                               </form>
+                             </div>
+                            </div>
+                          </div>
+                        </div>
+                          </div>
+        <script>
+          // После загрузки DOM-дерева (страницы)
+          $(function() {     
+            //при нажатии на ссылку, содержащую Thumbnail
+            $('.thumbnail').click(function(e) {
+              //отменить стандартное действие браузера
+              e.preventDefault();
+             
+            });
+          });
+          </script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
 <script src="js/jquery.nicescroll.min.js"></script>
 <script src="js/wow.min.js"></script>
-<script src="js/modaljstrouble.js"></script>
-<script src="js/modalmyprod.js"></script>
+
 <script>
     new WOW().init();
 </script>

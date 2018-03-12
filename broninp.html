@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="css/broninp.css">
     <link rel="stylesheet" href="css/jquery.datetimepicker.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -21,6 +23,33 @@
     <![endif]-->
   </head>
   <body>
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-4 g9 col-lg-offset-4 text-center">
+            <h2>Выберите фотосессию</h2>
+          </div>
+        </div>
+    <div class="row">
+        <div class="col-lg-12 ">
+          <form action="">
+            <div class="btn-group btnfs" data-toggle="buttons">
+              <label class="btn radiocheckfoto1">
+                <input type="radio" class="radiocheckfoto" name="family" value="Family" id="option11"> Семейная
+              </label>
+              <label class="btn radiocheckfoto1">
+                <input type="radio" class="radiocheckfoto" name="Idividual" value="Individual" id="option21"> Индивидуальная 
+              </label>
+              <label class="btn radiocheckfoto1">
+                <input type="radio" class="radiocheckfoto" name="kids" value="Kid" id="option31"> Детская 
+              </label>
+              <label class="btn radiocheckfoto1">
+                <input type="radio" class="radiocheckfoto" name="Predmet" value="Predmet" id="option41"> Предметная
+              </label>
+            </div>
+    </div>
+  </form>
+  </div>  
+    
     <div class="container formcont">
       <div class="row">
         <div class="col-lg-4 g9 col-lg-offset-4">
@@ -43,13 +72,13 @@
           <div class="form-group">
               <label class="col-sm-4 control-label">Телефон</label>
               <div class="col-sm-4">
-                <input type="text" class="form-control" id="inputEmail3" placeholder="Number">
+                <input type="text" class="form-control"  placeholder="Number">
               </div>
             </div>
             <div class="form-group">
                 <label class="col-sm-4 control-label">Email</label>
                 <div class="col-sm-4">
-                  <input type="text" class="form-control" id="inputEmail3" placeholder="Email">
+                  <input type="text" class="form-control"  placeholder="Email">
                 </div>
               </div>
     </div>
@@ -60,27 +89,68 @@
           </div>
         </div>
         <div class="col-lg-4 col-lg-offset-4 datetimepicker" style="overflow:hidden;">
-            <input type="text" class="form-control" id="datetimepicker" readonly>
+          <form method="POST" id="myform" name="myform">
+            <input type="dateandtime" class="form-control" name="datetimepicker" id="datetimepicker" >
+            <input type="submit" id="sybmitform"  value="Забронировать" class="btn btnnext"></input>
+          </form>
             </div>
     </div>
-        
-   
+
+      
+    </div>
     <!-- Modal -->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
    <script type="text/javascript" src="js/moment.js"></script>
     <script type="text/javascript" src="js/jquery.datetimepicker.full.js"></script>
+ 
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.nicescroll.min.js"></script>
     <script src="js/wow.min.js"></script>
     <script type="text/javascript">
-      $(function () {
-          $('#datetimepicker').datetimepicker();
+      $("#sybmitform").on("click", function() {
+        $.ajax({
+          url: 'send.php',
+          data: {datetimepicker: $("#datetimepicker").val()}, // прикрепляем значение поля datetimepicker к запросу
+          method: 'post',
+          dataType: 'json',
+          success: function(res) {
+            console.log(res.mess)
+          }
+        });
       });
+      </script>
+   <script type="text/javascript">
+    jQuery.datetimepicker.setLocale('ru');
+    $(function() {
+      $('#datetimepicker').datetimepicker({
+        inline: true,
+        format: 'd.m.Y H:i',
+        lang: 'ru',
+        allowTimes: ['10:00', '11:00', '12:00', '13:00', '14:00', '15:00', '16:00', '17:00', '18:00', '19:00', '20:00'],
+        minDate: 0,
+      });
+    });
+  </script>
+  <script>
   </script>
     <script>
       new WOW().init();
+    </script>
+    <script>
+      $(".btnfs",".form-control").trigger('reset');
+     
+    </script>
+    <script>
+      $(function() {
+  $(".radiocheckfoto1").click(function(e) {
+    e.preventDefault();
+    $(".radiocheckfoto1").removeClass('active1');
+    $(this).addClass('active1');
+  })
+});
     </script>
     <script>
       $(document).ready(
@@ -89,5 +159,6 @@
           }
       );
     </script>
+  
   </body>
 </html>

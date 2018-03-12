@@ -1,6 +1,10 @@
-@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300);
-body{
-    font-family: 'Quicksand', sans-serif;
+.tmbpic11{
+    background-color: #d1d1d1 !important;
+    border-color: #d1d1d1 !important;
+    border-radius:0em !important; 
+    width: 10em;
+    height: 13em;
+
 }
 .gal-container{
 	padding: 12px;
@@ -124,4 +128,12 @@ body{
     .gal-container .modal-content{
         height:250px;
     }
+}
+.tmbpic{
+    background-color: #d1d1d1 !important;
+    border-color: #d1d1d1 !important;
+    border-radius:0em !important; 
+    width: 10em;
+    height: 13em;
+
 }
