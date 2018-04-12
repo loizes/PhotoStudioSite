@@ -1,0 +1,71 @@
+@media(min-width:0px) and (max-width:320px) {
+	.gal-container .modal-content{
+        height:12em !important;
+        width: 15em !important;
+    }
+    
+    .modal-dialog img{
+        height:12em !important;
+        width: 15em !important;
+    }
+}
+
+@media(min-width:321px) and (max-width:480px) {
+	.gal-container .modal-content{
+        height:20em !important;
+        width: 27em !important;
+    }
+    
+    .modal-dialog img{
+        height:20em !important;
+        width: 27em !important;
+    }
+}
+
+@media(min-width:481px) and (max-width:768px) {
+	.gal-container .modal-content{
+        height:35em !important;
+        width: 50em !important;
+    }
+    
+    .modal-dialog img{
+        height:35em !important;
+        width: 50em !important;
+    }
+}
+
+@media(min-width:769px) and (max-width:992px) {
+	.gal-container .modal-content{
+        height:35em !important;
+        width: 45em !important;
+    }
+    
+    .modal-dialog img{
+        height:35em !important;
+        width: 45em !important;
+    }
+}
+
+@media(min-width:993px) and (max-width:1200px) {
+    .gal-container .modal-content{
+        height:35em !important;
+        width: 45em !important;
+    }
+    
+    .modal-dialog img{
+        height:35em !important;
+        width: 45em !important;
+    }
+}
+@media(min-width:1201px) and (max-width:1920px) {
+	.gal-container .modal-content{
+        height:45em !important;
+        width: 55em !important;
+    }
+    
+    .modal-dialog img{
+        height:45em !important;
+        width: 55em !important;
+    }
+
+}

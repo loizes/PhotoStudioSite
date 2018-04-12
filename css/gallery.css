@@ -118,17 +118,7 @@
     transform: translate3d(0, -100px, 0);
     opacity: 1;
 }
-@media (min-width: 768px) {
-.gal-container .modal-dialog {
-    width: 55%;
-    margin: 50 auto;
-}
-}
-@media (max-width: 768px) {
-    .gal-container .modal-content{
-        height:250px;
-    }
-}
+
 .tmbpic{
     background-color: #d1d1d1 !important;
     border-color: #d1d1d1 !important;

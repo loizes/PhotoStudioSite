@@ -290,7 +290,16 @@ float: right;
 .cont2{
     height: 2em;
 }
-
+.bt1{
+    margin-top: 0.5em;
+}
+.tel{
+    font-size: 0.7em;
+}
+.imglogo{
+    width: 3em;
+    height: 2em;
+}
 /* hover effects */
 tel:hover{
     color:#a01b1c;
