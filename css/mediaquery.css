@@ -57,7 +57,7 @@
         width: 45em !important;
     }
 }
-@media(min-width:1201px) and (max-width:1920px) {
+@media(min-width:1201px) and (max-width:1480px) {
 	.gal-container .modal-content{
         height:45em !important;
         width: 55em !important;
@@ -68,4 +68,25 @@
         width: 55em !important;
     }
 
+    .carousel-bg .carousel-inner .item {
+        
+        min-height: 40em !important;
+       }
+       
+}
+@media(min-width:1481px) and (max-width:1920px) {
+	.gal-container .modal-content{
+        height:45em !important;
+        width: 55em !important;
+    }
+    
+    .modal-dialog img{
+        height:45em !important;
+        width: 55em !important;
+    }
+
+    .carousel-bg .carousel-inner .item {
+        
+        min-height: 50em !important;
+       }
 }

@@ -297,8 +297,14 @@ float: right;
     font-size: 0.7em;
 }
 .imglogo{
-    width: 3em;
-    height: 2em;
+    width: 20%;
+    height:20%;
+}
+.el1 h2{
+    margin: 0em;
+}
+.el1{
+    margin-left: 1.5em !important; 
 }
 /* hover effects */
 tel:hover{
