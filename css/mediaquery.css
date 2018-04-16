@@ -1,36 +1,57 @@
 @media(min-width:0px) and (max-width:320px) {
 	.gal-container .modal-content{
-        height:12em !important;
-        width: 15em !important;
+        height:22em !important;
+        width: 17em !important;
     }
     
     .modal-dialog img{
-        height:12em !important;
-        width: 15em !important;
+        height:22em !important;
+        width: 17em !important;
+    }
+    .carousel-bg .carousel-inner .item {
+        
+        min-height: 20em !important;
+       }
+       .cont{
+        padding: 1em;
     }
 }
 
 @media(min-width:321px) and (max-width:480px) {
 	.gal-container .modal-content{
         height:20em !important;
-        width: 27em !important;
+        width: 25em !important;
     }
     
     .modal-dialog img{
         height:20em !important;
-        width: 27em !important;
+        width: 25em !important;
     }
+    .carousel-bg .carousel-inner .item {
+        
+        min-height: 15em !important;
+       }
+       .cont{
+           padding: 1em;
+       }
 }
 
 @media(min-width:481px) and (max-width:768px) {
 	.gal-container .modal-content{
-        height:35em !important;
-        width: 50em !important;
+        height:25em !important;
+        width: 33em !important;
     }
     
     .modal-dialog img{
-        height:35em !important;
-        width: 50em !important;
+        height:25em !important;
+        width: 33em !important;
+    }
+    .carousel-bg .carousel-inner .item {
+        
+        min-height: 25em !important;
+       }
+       .cont{
+        padding: 1em;
     }
 }
 
@@ -44,6 +65,21 @@
         height:35em !important;
         width: 45em !important;
     }
+    .carousel-bg .carousel-inner .item {
+        
+        min-height: 25em !important;
+       }
+       .tel{
+           font-size: 0.5em !important;
+       }
+    .limed{
+        padding-left: 1.5em !important;
+        padding-right: 1.5em !important;
+    }
+    .imglogo{
+        width: 40%;
+        height: 40%;
+    }
 }
 
 @media(min-width:993px) and (max-width:1200px) {
@@ -55,6 +91,18 @@
     .modal-dialog img{
         height:35em !important;
         width: 45em !important;
+    }
+    .carousel-bg .carousel-inner .item {
+        
+        min-height: 35em !important;
+       }
+       .limed{
+        padding-left: 2em !important;
+        padding-right: 2em !important;
+    }
+    .imglogo{
+        width: 20%;
+        height: 20%;
     }
 }
 @media(min-width:1201px) and (max-width:1480px) {
@@ -72,7 +120,14 @@
         
         min-height: 40em !important;
        }
-       
+       .limed{
+        padding-left: 2em !important;
+        padding-right: 2em !important;
+    }
+    .imglogo{
+        width: 20%;
+        height: 20%;
+    }
 }
 @media(min-width:1481px) and (max-width:1920px) {
 	.gal-container .modal-content{
@@ -87,6 +142,14 @@
 
     .carousel-bg .carousel-inner .item {
         
-        min-height: 50em !important;
+        min-height: 52em !important;
        }
+       .limed{
+        padding-left: 2em !important;
+        padding-right: 2em !important;
+    }
+    .imglogo{
+        width: 20%;
+        height: 20%;
+    }
 }

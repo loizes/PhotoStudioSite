@@ -12,7 +12,7 @@
 
    .carousel-fade .carousel-inner .item {
     transition-property: opacity;
-    overflow: hidden;
+   
    }
    .carousel-fade .carousel-inner .item,
    .carousel-fade .carousel-inner .active.left,
@@ -39,5 +39,5 @@
    }
    .carousel11{
        margin-top: 0em;
-       width: 100%;
+      
    }

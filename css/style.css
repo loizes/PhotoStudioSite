@@ -4,14 +4,14 @@
 } 
 /* style */
 body{
-  background-color: #ededee;
-    font-family: proxima;
+  background-color: #e0e0e2;
+    font-family: proxima !important;
 } 
 
  .navbar{
    padding: 0em !important;
    margin: 0em !important;
-    background-color:#eeeeee;
+    background-color:#e0e0e2;
     border-radius:0em !important; 
     border:0em;
     z-index: 999;
@@ -28,22 +28,20 @@ body{
     font-size: 1.5em;
     text-align: center;
     border: none;
-    background-color: #eeeeee; 
+    background-color: #e0e0e2; 
   
 	
 }
 
 .liactive{
     background-color: #a01b1c !important;  
-    color: #eeeeee !important;
-    padding-left: 2em !important;
-    padding-right: 2em !important;
+    color: #e0e0e2 !important;
+   
 }
 
 .linonactive{
     color:#000000 !important;
-    padding-left: 2em !important;
-    padding-right: 2em !important;
+    
 }
 
 .limenu{
@@ -52,7 +50,7 @@ body{
 } 
 
 .l12{
-    background-color:   #eeeeee !important;
+    background-color:   #e0e0e2 !important;
 }
 
  .nav li:hover{
@@ -237,6 +235,7 @@ float: right;
 }
 #contacts{
     background-color: #000000;
+    color: #d1d1d1;
 }
 .c3{
     margin-top: 4em;
@@ -296,16 +295,14 @@ float: right;
 .tel{
     font-size: 0.7em;
 }
-.imglogo{
-    width: 20%;
-    height:20%;
-}
+
 .el1 h2{
     margin: 0em;
 }
 .el1{
     margin-left: 1.5em !important; 
 }
+
 /* hover effects */
 tel:hover{
     color:#a01b1c;
