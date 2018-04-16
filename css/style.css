@@ -302,7 +302,10 @@ float: right;
 .el1{
     margin-left: 1.5em !important; 
 }
-
+.logobrandtop{
+    color: #eeeeee;
+    
+}
 /* hover effects */
 tel:hover{
     color:#a01b1c;
