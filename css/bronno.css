@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(240, 240, 240) !important;
+}
+.btnnext{
+    width: 10em;
+    height: 2.5em;
+    background-color: #a01b1c;
+    color:#fff;
+    margin-bottom: 2em;
+}
