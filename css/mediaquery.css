@@ -15,6 +15,10 @@
        .cont{
         padding: 1em;
     }
+    .limed{
+        padding-left: 4em !important;
+        padding-right:4em !important;
+    }
 }
 
 @media(min-width:321px) and (max-width:480px) {
@@ -34,6 +38,10 @@
        .cont{
            padding: 1em;
        }
+       .limed{
+        padding-left: 4em !important;
+        padding-right:4em !important;
+    }
 }
 
 @media(min-width:481px) and (max-width:768px) {
@@ -56,6 +64,10 @@
     .imglogo{
         width: 20% !important;
         height: 20% !important;
+    }
+    .limed{
+        padding-left: 4em !important;
+        padding-right:4em !important;
     }
 }
 

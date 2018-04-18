@@ -14,7 +14,7 @@ body{
  .navbar{
    padding: 0em !important;
    margin: 0em !important;
-    background-color:#e0e0e2;
+    background-color:#f1f1f1;
     border-radius:0em !important; 
     border:0em;
     z-index: 999;
@@ -31,14 +31,14 @@ body{
     font-size: 1.5em;
     text-align: center;
     border: none;
-    background-color: #e0e0e2; 
+    background-color: #f1f1f1; 
   
 	
 }
 
 .liactive{
     background-color: #a01b1c !important;  
-    color: #e0e0e2 !important;
+    color: #f1f1f1 !important;
    
 }
 
@@ -53,7 +53,7 @@ body{
 } 
 
 .l12{
-    background-color:   #e0e0e2 !important;
+    background-color:   #f1f1f1 !important;
 }
 
  .nav li:hover{
@@ -129,7 +129,7 @@ float: right;
 
 }
 .navbar-header{
-    color: #eeeeee;
+    color: #eeeeee !important;
     background-color: #000000;
     z-index: 999;
     
@@ -269,6 +269,14 @@ float: right;
 .c51{
     
 
+
+}
+.tmbpic11{
+    background-color: #e0e0e0!important;
+    border-color: #e0e0e0 !important;
+    border-radius:0em !important; 
+    width: 10em;
+    height: 13em;
 
 }
 .tmbpic{
