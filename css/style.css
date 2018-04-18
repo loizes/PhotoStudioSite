@@ -4,8 +4,11 @@
 } 
 /* style */
 body{
-  background-color: #e0e0e2;
+  background-image: url(../img/background.jpg);
+ 
+  background-attachment: fixed;
     font-family: proxima !important;
+
 } 
 
  .navbar{
@@ -261,21 +264,23 @@ float: right;
 }
 .c5{
     text-align: center;
+    background-color: #bbbbbb;
 }
 .c51{
-    background-color: #d1d1d1;
-    border-right: 1px solid #353535;
-    border: 1px solid #c4c4c4;
-    padding-bottom: 2.5em;
+    
+
 
 }
 .tmbpic{
-    background-color: #eeeeee !important;
-    border-color: #eeeeee !important;
+    background-color: #e0e0e0 !important;
+    border-color: #e0e0e0 !important;
     border-radius:0em !important; 
     width: 10em;
     height: 13em;
 
+}
+.tmbcarf{
+    border: 1px solid rgb(0, 0, 0) !important;
 }
 
 .t4{
@@ -284,7 +289,8 @@ float: right;
     font-size:2.5em; 
 }
 .c6{
-   padding-bottom: 3em; 
+background-color: #e0e0e0;
+padding-bottom: 2em;
 }
 .cont2{
     height: 2em;
